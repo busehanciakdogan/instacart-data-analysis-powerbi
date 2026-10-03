@@ -1,85 +1,62 @@
-# Instacart Veri Analizi
-> BigQuery · dbt · SQL · Power BI · DAX · Python
+# Instacart Veri Analizi | Power BI & Machine Learning
 
-Instacart alışveriş verileri kullanılarak müşteri davranışları, sipariş alışkanlıkları, ürün performansı ve yeniden sipariş eğilimlerinin analiz edildiği Power BI projesidir.
-
-## Proje Hakkında
-
-Bu projede Instacart verileri üzerinden farklı boyutlarda veri analizi ve görselleştirme çalışmaları gerçekleştirilmiştir.
-
-Analiz kapsamında:
-
-- KPI'lar ve temel performans göstergeleri
-- Siparişlerin zamansal dağılımı
-- Müşteri davranışları ve sadakat göstergeleri
-- Ürün ve satış performansı
-- Yeniden sipariş davranışları
-- Müşteri ve ürün ilişkileri
-- Analiz sonuçlarına dayalı iş önerileri
-
-incelenmiştir.
+Instacart alışveriş verileri kullanılarak müşteri davranışları, sipariş alışkanlıkları ve ürün performansının analiz edildiği uçtan uca veri analizi projesidir.
 
 ## Kullanılan Teknolojiler
 
-- **Google BigQuery** – Verilerin depolanması ve SQL ile sorgulanması
-- **dbt** – Veri temizleme, dönüştürme ve tabloların birleştirilmesi
-- **SQL** – Veri sorgulama ve veri hazırlama
-- **Power BI** – Veri görselleştirme ve interaktif dashboard oluşturma
-- **DAX** – KPI ve analiz metriklerinin oluşturulması
-- **Python** – Machine Learning ve tahminleme çalışmaları
-- **Veri modelleme**
-- **Veri görselleştirme**
-- **KPI analizi**
-- **Müşteri ve ürün analizi**
+- **Google BigQuery** — Veri depolama ve SQL sorgulama
+- **dbt** — Veri temizleme, dönüştürme ve veri modelleme
+- **SQL** — Veri sorgulama ve hazırlama
+- **Power BI** — Veri görselleştirme ve interaktif dashboard
+- **DAX** — KPI ve analitik metriklerin oluşturulması
+- **Python** — Machine Learning ve tahminleme çalışmaları
 
 ## Veri Analizi Süreci
 
 Proje kapsamında uçtan uca bir veri analizi süreci gerçekleştirilmiştir:
 
-### 1. Veri Aktarımı – BigQuery
+**BigQuery → dbt → Power BI → Python / Machine Learning**
 
-Ham veriler **Google BigQuery** ortamına aktarılmış ve analiz için sorgulanmıştır.
+### 1. Veri Aktarımı | BigQuery
 
-### 2. Veri Temizleme ve Dönüştürme – dbt
+Ham Instacart verileri **Google BigQuery** ortamına aktarılmış ve analiz için SQL sorguları hazırlanmıştır.
+
+### 2. Veri Temizleme ve Modelleme | dbt
 
 **dbt** kullanılarak:
 
-- Veri temizleme işlemleri gerçekleştirildi.
-- Tablolar dönüştürüldü.
-- İlgili tablolar birleştirildi.
-- Analiz için kullanılabilecek veri modelleri oluşturuldu.
+- Veri temizleme işlemleri gerçekleştirilmiştir.
+- İlgili tablolar birleştirilmiştir.
+- Analiz için kullanılabilecek veri modelleri oluşturulmuştur.
 
-### 3. Veri Görselleştirme – Power BI
+### 3. Veri Görselleştirme | Power BI
 
-Hazırlanan veri modelleri **BigQuery üzerinden Power BI'a** aktarılmıştır.
+Hazırlanan veri modelleri BigQuery üzerinden **Power BI**'a aktarılmıştır.
 
 Power BI kullanılarak:
 
-- KPI'lar oluşturuldu.
-- Müşteri davranışları analiz edildi.
-- Ürün satış performansı incelendi.
-- Sipariş alışkanlıkları analiz edildi.
-- Yeniden sipariş davranışları incelendi.
-- İnteraktif dashboardlar oluşturuldu.
+- KPI'lar oluşturulmuştur.
+- Siparişlerin zamansal dağılımı analiz edilmiştir.
+- Müşteri davranışları ve sadakat göstergeleri incelenmiştir.
+- Ürün ve satış performansı analiz edilmiştir.
+- Yeniden sipariş davranışları incelenmiştir.
+- İnteraktif dashboard'lar oluşturulmuştur.
 
-### 4. Machine Learning – Python
+### 4. Machine Learning | Python
 
-Projenin son aşamasında **Python kullanılarak Machine Learning çalışmaları** gerçekleştirilmiştir.
+Projenin son aşamasında **Python** kullanılarak Machine Learning çalışmaları gerçekleştirilmiştir.
 
-Elde edilen Machine Learning sonuçları Power BI raporunun son bölümünde sunularak, veri analizi ve makine öğrenmesi çıktıları birlikte değerlendirilmiştir.
+Elde edilen Machine Learning sonuçları Power BI raporunun sonuç bölümünde sunularak, veri analizi çıktıları ile birlikte değerlendirilmiştir.
 
-## Rapor Sayfaları
+## Analiz Kapsamı
 
-Power BI raporu aşağıdaki bölümlerden oluşmaktadır:
-
-1. Instacart | Proje Özeti
-2. KPI
-3. Alışveriş Modelleri ve Zaman Analizi
-4. Müşteri Davranışı ve Sadakat Analizi
-5. Ürün Satış ve Müşteri Analizi
-6. Ürün Yeniden Sipariş Analizi
-7. Ürün Satış Performansı ve Müşteri Davranışı Analizi
-8. Sonuçlar ve İş Önerileri
+- KPI ve temel performans göstergeleri
+- Siparişlerin zamansal dağılımı
+- Müşteri davranışları ve sadakat
+- Ürün ve satış performansı
+- Yeniden sipariş davranışları
+- Müşteri ve ürün ilişkileri
+- Machine Learning sonuçları
 
 ## Dashboard Görselleri
 
@@ -117,20 +94,17 @@ Power BI raporu aşağıdaki bölümlerden oluşmaktadır:
 
 ## Power BI Raporu
 
-Projenin Power BI dosyası:
+Projenin Power BI raporu:
 
 `Instacart-Veri-Analizi.pbix`
 
-> `.pbix` dosyasını görüntülemek için Power BI Desktop gereklidir.
+> `.pbix` dosyasını görüntülemek için bilgisayarınızda Power BI Desktop bulunması gerekir.
 
 ## CV'de Kullanım
 
-**Instacart Veri Analizi | BigQuery · dbt · Power BI · Python**
+**Instacart Veri Analizi | BigQuery, dbt, Power BI, Python**
 
-Instacart verileri üzerinde BigQuery ve dbt kullanılarak veri temizleme ve modelleme, Power BI ile veri görselleştirme ve Python ile Machine Learning çalışmaları gerçekleştirilen uçtan uca veri analizi projesi.
-
-**GitHub:**  
-https://github.com/busehanciakdogan/instacart-data-analysis-powerbi
+Instacart verileri üzerinde BigQuery ve dbt kullanarak veri temizleme ve modelleme gerçekleştirilmiş; Power BI ile KPI, müşteri, ürün ve sipariş analizleri içeren interaktif dashboard'lar geliştirilmiş ve Python ile Machine Learning çalışmaları gerçekleştirilmiştir.
 
 ---
 
