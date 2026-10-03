@@ -94,18 +94,18 @@ Elde edilen Machine Learning sonuçları Power BI raporunun sonuç bölümünde 
 
 ## Power BI Raporu
 
-Projenin Power BI raporu:
+Power BI raporu:
 
-`Instacart-Veri-Analizi.pbix`
+[📊 Instacart Veri Analizi — Power BI Raporu](./Instacart-Veri-Analizi.pbix)
 
-> `.pbix` dosyasını görüntülemek için bilgisayarınızda Power BI Desktop bulunması gerekir.
+> `.pbix` dosyasını görüntülemek ve raporu incelemek için bilgisayarınızda Power BI Desktop bulunması gerekir.
 
 ## CV'de Kullanım
 
 **Instacart Veri Analizi | BigQuery, dbt, Power BI, Python**
 
-Instacart verileri üzerinde BigQuery ve dbt kullanarak veri temizleme ve modelleme gerçekleştirilmiş; Power BI ile KPI, müşteri, ürün ve sipariş analizleri içeren interaktif dashboard'lar geliştirilmiş ve Python ile Machine Learning çalışmaları gerçekleştirilmiştir.
+Instacart verileri üzerinde BigQuery ve dbt kullanılarak veri temizleme ve modelleme gerçekleştirilmiş; Power BI ile KPI, müşteri, ürün ve sipariş analizlerini içeren interaktif dashboard'lar geliştirilmiş ve Python ile Machine Learning çalışmaları gerçekleştirilmiştir.
 
----
+**Kullanılan teknolojiler:** BigQuery · SQL · dbt · Power BI · DAX · Python
 
-*Workintech eğitim projesi.*
+> Workintech eğitim projesi.
