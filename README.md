@@ -94,11 +94,11 @@ Elde edilen Machine Learning sonuçları Power BI raporunun sonuç bölümünde 
 
 ## Power BI Raporu
 
-Power BI raporu:
+Power BI raporunu aşağıdaki bağlantı üzerinden indirebilirsiniz:
 
 [📊 Instacart Veri Analizi — Power BI Raporu](./Instacart-Veri-Analizi.pbix)
 
-> `.pbix` dosyasını görüntülemek ve raporu incelemek için bilgisayarınızda Power BI Desktop bulunması gerekir.
+> `.pbix` dosyası GitHub üzerinde doğrudan görüntülenemez. Dosyayı indirerek Power BI Desktop ile açabilirsiniz.
 
 ## CV'de Kullanım
 
